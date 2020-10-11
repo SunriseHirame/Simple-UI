@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace SunriseHirame.SimpleUI
 {
-    [CreateAssetMenu (menuName = "Simple UI/Animation Preset")]
-    public class AnimationPreset : ScriptableObject
+    [CreateAssetMenu (menuName = "Simple UI/Tween Preset")]
+    public class TweenPreset : ScriptableObject
     {
         [Header ("Position")]
         [SerializeField] private TweenDefinition positionTween = default;
